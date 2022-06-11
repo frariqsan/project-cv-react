@@ -1,12 +1,12 @@
 export const CV = {
-    a:{
+    infoProject:{
         name: "Francisco Javier",
         lastName: "Riquelme Sánchez",
         city: "Elche/Alicante",
         email: "frariqsan@gmail.com",
         birthDate: "10/12/1996",
         phone: "(+34) 123456789",
-        image: "",
+        image: "https://res.cloudinary.com/dtluttmor/image/upload/v1654942484/photo_2022-06-08_15.55.27_bkp9eo.jpg",
         gitHub: "https://github.com/frariqsan",
         about:[
             {
@@ -24,7 +24,7 @@ export const CV = {
         {
             name: "Bootcamp FullStack Developer",
             date: "May.2022 - Jul.2022",
-            where: "IES Severo Ochoa",
+            where: "Upgrade Hub",
         },
         {
             name: "Grado Medio Sistemas Microinformaticos y Redes",
