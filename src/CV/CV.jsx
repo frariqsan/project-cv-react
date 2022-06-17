@@ -31,7 +31,35 @@ export const CV = {
             date: "2015 - 2018",
             where: "IES Severo Ochoa",
         },
-    ]
+    ],
+    experience: [
+      {
+        name: "Desarrollador web",
+        date: "02/2021 – 05/2021",
+        where: "Soluciones Digitales Eduardo Larios SL",
+        description:
+          "Programación web mediante WordPress con WooCommerce",
+      },
+      {
+        name: "Técnico informático",
+        date: "08/2020 – 09/2020",
+        where: "Zataca Systems",
+        description:
+          "Creación web mediante Wordpress",
+      },
+      {
+        name: "Técnico de reparación",
+        date: "06/2018 – 08/2020",
+        where: "Zataca Systems",
+        description:
+          "Reparación de equipos informaticos y creación de páginas mediante PrestaShop",          
+      }
+    ],
+    languages: {
+        language: "Español",
+        wrlevel: "Nativo",
+        splevel: "Nativo",
+      },
 }
 
 export default CV;
