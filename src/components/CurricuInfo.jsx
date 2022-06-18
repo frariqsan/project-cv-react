@@ -13,7 +13,7 @@ function CurricuInfo({infoProject}) {
     <p>{infoProject.birthDate}</p>
     <p>
         <a href={"mailto:" + infoProject.email}>
-            frariqsan@gmail.com
+        📧 Frariqsan@gmail.com
         </a>
     </p>
     <p>{infoProject.phone}</p>

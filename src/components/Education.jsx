@@ -10,11 +10,11 @@ const Education = () => {
   
     return (
         <div>
-            <div className='education card'>
+            <div className='educationcard'>
                 {education.map((item,index)=>{
                     return(
                         <div key={index}>
-                            <p className='name'>{item.name}</p>
+                            <p className='name'><strong>{item.name}</strong></p>
                             <p>{item.where}</p>
                             <p>{item.date}</p>
                             <div>
