@@ -19,7 +19,7 @@ function CurricuInfo({infoProject}) {
         </a>
     </p>
     <p>{infoProject.phone}</p>
-    <p><a href={infoProject.github}>GitHub</a></p>
+    <p><a href={infoProject.gitHub}>👨‍💻GitHub</a></p>
     </div>
     </div>
     </div>

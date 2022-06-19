@@ -19,7 +19,7 @@ const NewEducation = () => {
   const handleSubmit = (ev) => {
         ev.preventDefault();
         dispatch(addEducation(form))
-        navigate('/')
+        navigate('/educationPage')
   }
 
   const handleChange = (ev) => {
@@ -28,20 +28,20 @@ const NewEducation = () => {
     console.log(form)
   }
     return (
-        <form onSubmit={handleSubmit}>
-        <label>
-            <span>name</span>
+        <form className='formEdit' onSubmit={handleSubmit}>
+        <label className='name'>
+            <span>name </span>
             <input type="text" name="name" onChange={handleChange}/>
         </label>
-        <label>
-            <span>date</span>
+        <label className='date'>
+            <span>date </span>
             <input type="text" name="date" onChange={handleChange}/>
         </label>
         <label>
-            <span>where</span>
+            <span className='where'>where </span>
             <input type="text" name="where" onChange={handleChange}/>
         </label>
-        <button className='EducationAdd'>addEducation</button>
+        <button className='educationAdd'>add Education</button>
         </form>
   )
 }

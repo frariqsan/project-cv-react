@@ -3,7 +3,7 @@ import './About.scss';
 
 const About = ({infoProject}) => {
   return (
-    <div className="abouthero">
+    <div className="aboutCard">
     {infoProject.about.map((item) =>{
         return(
             <div key={JSON.stringify(item)}>

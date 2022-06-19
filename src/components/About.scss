@@ -1,3 +1,13 @@
-.aboutcard{
+.aboutCard{
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 600px;
+    margin-top: 120px;
+    border-radius: 10px;
+    background-color: #f6f7f1;
+    border-style: solid;
+    font-size: 22px;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 
 }

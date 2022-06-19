@@ -10,13 +10,13 @@ export const CV = {
         gitHub: "https://github.com/frariqsan",
         about:[
             {
-                info: "Trabajo bien en equipo",
+                info: "Trabajo bien en equipo 👐",
             },
             {
-                info: "Posibilidad de trabajo en remoto como presencial",
+                info: "Posibilidad de trabajo en remoto como presencial 🏠",
             },
             {
-                info: "Me gusta tener recursos y ejecutarlos en el momento exacto",
+                info: "Me gusta tener recursos y ejecutarlos en el momento exacto 💪",
             },
         ],
     },
