@@ -3,6 +3,8 @@ import './CurricuInfo.scss';
 
 function CurricuInfo({infoProject}) {
   return (
+    <div className='container'>
+
     <div className='me'>
     <img src={infoProject.image} alt='pic'></img>
     <div className='cardname'>
@@ -18,6 +20,7 @@ function CurricuInfo({infoProject}) {
     </p>
     <p>{infoProject.phone}</p>
     <p><a href={infoProject.github}>GitHub</a></p>
+    </div>
     </div>
     </div>
   );

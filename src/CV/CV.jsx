@@ -50,7 +50,7 @@ export const CV = {
       {
         name: "Técnico de reparación",
         date: "06/2018 – 08/2020",
-        where: "Zataca Systems",
+        where: "Tecnifrank",
         description:
           "Reparación de equipos informaticos y creación de páginas mediante PrestaShop",          
       }

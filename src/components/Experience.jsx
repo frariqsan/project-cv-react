@@ -12,7 +12,7 @@ const Experience = () => {
   
     return (
     <div>
-        <div className='experience card'>
+        <div className='experienceCard'>
           {experience.map((item, index)=>{
             return(
               <div key={index}>

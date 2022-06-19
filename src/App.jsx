@@ -9,17 +9,18 @@ import EducationPage from './pages/EducationPage';
 import ExperiencePage from './pages/ExperiencePage';
 
 
+
 function App() {
   return (
     <div className="app">
       <Router>
         <nav>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/newEducation">New education</NavLink>
-          <NavLink to="/newExperience">New experience</NavLink>
-          <NavLink to="/aboutPage">About</NavLink>
-          <NavLink to="/educationPage">Education</NavLink>
-          <NavLink to="/experiencePage">Experience</NavLink>
+          <NavLink to="/"><button>Home</button></NavLink>
+          <NavLink to="/newEducation"><button>New education</button></NavLink>
+          <NavLink to="/newExperience"><button>New experience</button></NavLink>
+          <NavLink to="/aboutPage"><button>About Me</button></NavLink>
+          <NavLink to="/educationPage"><button>Education</button></NavLink>
+          <NavLink to="/experiencePage"><button>Experience</button></NavLink>
         </nav>
         <Routes>
           <Route path="/" element={<Home />}/>
@@ -29,6 +30,7 @@ function App() {
           <Route path="/aboutPage" element={<AboutPage/>}/>
           <Route path="/educationPage" element={<EducationPage/>}/>
           <Route path="/experiencePage" element={<ExperiencePage/>}/>
+
 
         </Routes>
       </Router>

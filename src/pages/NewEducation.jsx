@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import { useDispatch } from 'react-redux';
 import { addEducation } from '../redux/education/education.actions';
 import { useNavigate } from 'react-router-dom';
+import './NewEducation.scss';
 
 const INITIAL_FORM = {
     name: '',
@@ -40,7 +41,7 @@ const NewEducation = () => {
             <span>where</span>
             <input type="text" name="where" onChange={handleChange}/>
         </label>
-        <button>addEducation</button>
+        <button className='EducationAdd'>addEducation</button>
         </form>
   )
 }
